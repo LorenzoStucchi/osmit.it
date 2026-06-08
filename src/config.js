@@ -4,7 +4,7 @@ export default {
     // title in the navbar (hidden on mobile)
     navbarTitle: 'OpenStreetMap Italia',
     // banner 5xmille
-    banner5X1000: `<h2 style="background-color: rgba(69, 157, 208, 0.79)">Destina il 5x1000 a <a href="https://cinquepermille.wikimedia.it/?mtm_campaign=5x1000_2025&mtm_kwd=osm&mtm_medium=banner" style= "color:black"">Wikimedia Italia</a> con il codice fiscale 94039910156</h2>`,
+    banner5X1000: `<h2 style="background-color: rgba(69, 157, 208, 0.79)">Destina il 5x1000 a <a href="https://cinquepermille.wikimedia.it/?mtm_campaign=5x1000_2026&mtm_kwd=osm&mtm_medium=banner" style= "color:black"">Wikimedia Italia</a> con il codice fiscale 94039910156</h2>`,
     // title of the section about openstreetmap
     osmTitle: 'OpenStreetMap',
     // text of the section about openstreetmap - supports HTML
