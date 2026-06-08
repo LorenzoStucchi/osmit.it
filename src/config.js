@@ -34,14 +34,24 @@ export default {
         */
         {
             checked: true,
+            name: 'OSM-Carto in italiano',
+            url: 'https://tile.osmit.it/tiles/carto/{z}/{x}/{y}.png',
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. Stile dei tasselli di <a href="https://osmit.it" target="_blank">OSM-Carto in italiano</a> ospitato da <a href="https://wikimedia.it/" target="_blank">Wikemedia Italia</a>. <a href="https://wiki.wikimedia.it/wiki/OpenStreetMap/Tiles_OSMit" target="_blank">Condizioni d\'uso delle tile</a> '
+        },
+        {
+            name: 'Stile escursionistico',
+            url: 'https://tile.osmit.it/tiles/hiking/{z}/{x}/{y}.png',
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. Stile dei tasselli di <a href="https://osmit.it" target="_blank">OSM escursionistico</a> ospitato da <a href="https://wikimedia.it/" target="_blank">Wikemedia Italia</a>. <a href="https://wiki.wikimedia.it/wiki/OpenStreetMap/Tiles_OSMit" target="_blank">Condizioni d\'uso delle tile</a> '
+        }, 
+        {
             name: 'OSM',
             url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }, 
+        },
         {
             name: 'CyclOSM',
             url: 'https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png',
-            attribution: '&copy; <a href="/copyright">OpenStreetMap contributors</a>. Stile dei tasselli di <a href="https://www.cyclosm.org" target="_blank">CyclOSM</a> ospitato da <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap Francia</a>. <a href="https://wiki.osmfoundation.org/wiki/Terms_of_Use" target="_blank">Condizioni del sito web e delle API</a>'
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. Stile dei tasselli di <a href="https://www.cyclosm.org" target="_blank">CyclOSM</a> ospitato da <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap Francia</a>. <a href="https://wiki.osmfoundation.org/wiki/Terms_of_Use" target="_blank">Condizioni del sito web e delle API</a>'
         }
     ],
     projects: [
