@@ -4,7 +4,7 @@ export default {
     // title in the navbar (hidden on mobile)
     navbarTitle: 'OpenStreetMap Italia',
     // banner 5xmille
-    banner5X1000: `<h2 style="background-color: rgba(69, 157, 208, 0.79)">Destina il 5x1000 a <a href="https://cinquepermille.wikimedia.it/?mtm_campaign=5x1000_2025&mtm_kwd=osm&mtm_medium=banner" style= "color:black"">Wikimedia Italia</a> con il codice fiscale 94039910156</h2>`,
+    banner5X1000: `<h2 style="background-color: rgba(69, 157, 208, 0.79)">Destina il 5x1000 a <a href="https://cinquepermille.wikimedia.it/?mtm_campaign=5x1000_2026&mtm_kwd=osm&mtm_medium=banner" style= "color:black"">Wikimedia Italia</a> con il codice fiscale 94039910156</h2>`,
     // title of the section about openstreetmap
     osmTitle: 'OpenStreetMap',
     // text of the section about openstreetmap - supports HTML
@@ -34,14 +34,24 @@ export default {
         */
         {
             checked: true,
+            name: 'OSM-Carto in italiano',
+            url: 'https://tile.osmit.it/tiles/carto/{z}/{x}/{y}.png',
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. Stile dei tasselli di <a href="https://osmit.it" target="_blank">OSM-Carto in italiano</a> ospitato da <a href="https://wikimedia.it/" target="_blank">Wikemedia Italia</a>. <a href="https://wiki.wikimedia.it/wiki/OpenStreetMap/Tiles_OSMit" target="_blank">Condizioni d\'uso delle tile</a> '
+        },
+        {
+            name: 'Stile escursionistico',
+            url: 'https://tile.osmit.it/tiles/hiking/{z}/{x}/{y}.png',
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. Stile dei tasselli di <a href="https://osmit.it" target="_blank">OSM escursionistico</a> ospitato da <a href="https://wikimedia.it/" target="_blank">Wikemedia Italia</a>. <a href="https://wiki.wikimedia.it/wiki/OpenStreetMap/Tiles_OSMit" target="_blank">Condizioni d\'uso delle tile</a> '
+        }, 
+        {
             name: 'OSM',
             url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }, 
+        },
         {
             name: 'CyclOSM',
             url: 'https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png',
-            attribution: '&copy; <a href="/copyright">OpenStreetMap contributors</a>. Stile dei tasselli di <a href="https://www.cyclosm.org" target="_blank">CyclOSM</a> ospitato da <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap Francia</a>. <a href="https://wiki.osmfoundation.org/wiki/Terms_of_Use" target="_blank">Condizioni del sito web e delle API</a>'
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. Stile dei tasselli di <a href="https://www.cyclosm.org" target="_blank">CyclOSM</a> ospitato da <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap Francia</a>. <a href="https://wiki.osmfoundation.org/wiki/Terms_of_Use" target="_blank">Condizioni del sito web e delle API</a>'
         }
     ],
     projects: [
@@ -121,7 +131,7 @@ export default {
     contactTitle: 'Contatti',
     // text of the section  contact us - supports HTML
     contactDescription: `
-        Puoi rimanere aggiornato sulle ultime notività che riguardano la comunità di OpenStreetMap Italia seguendo i canali social di Wikimedia Italia, <a href="https://twitter.com/wikimediaitalia" target="_blank">Twitter</a>, <a href="https://framapiaf.org/@wikimediaitalia" target="_blank">Mastodon</a>, <a href="https://www.instagram.com/wikimediaitalia/" target="_blank">Instagram</a> e <a href="https://www.facebook.com/Wikimedia.Italia" target="_blank">Facebook</a>, oppure seguendo il <a href="https://www.wikimedia.it/feed/" target="_blank">feed RSS</a> o iscrivendoti alla <a href="https://www.wikimedia.it#newsletter" target="_blank">newsletter</a> mensile di WMI.</br>
+        Puoi rimanere aggiornato sulle ultime notività che riguardano la comunità di OpenStreetMap Italia seguendo i canali social di Wikimedia Italia, <a href="https://framapiaf.org/@wikimediaitalia" target="_blank">Mastodon</a>, <a href="https://www.instagram.com/wikimediaitalia/" target="_blank">Instagram</a>, <a href="https://www.facebook.com/Wikimedia.Italia" target="_blank">Facebook</a> e <a href="https://x.com/wikimediaitalia" target="_blank">X</a>, oppure seguendo il <a href="https://www.wikimedia.it/feed/" target="_blank">feed RSS</a> o iscrivendoti alla <a href="https://www.wikimedia.it#newsletter" target="_blank">newsletter</a> mensile di WMI.</br>
         <br>
         Le diverse comunità regionali e locali hanno diversi canali di comunicazione, li puoi trovare elencati nella mappa sottostante. Selezione un punto sulla mappa per trovare tutti i canali disponibili per la tua area.
     `, // supports HTML
