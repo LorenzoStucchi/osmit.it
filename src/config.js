@@ -131,7 +131,7 @@ export default {
     contactTitle: 'Contatti',
     // text of the section  contact us - supports HTML
     contactDescription: `
-        Puoi rimanere aggiornato sulle ultime notività che riguardano la comunità di OpenStreetMap Italia seguendo i canali social di Wikimedia Italia, <a href="https://framapiaf.org/@wikimediaitalia" target="_blank">Mastodon</a>, <a href="https://www.instagram.com/wikimediaitalia/" target="_blank">Instagram</a>, <a href="https://www.facebook.com/Wikimedia.Italia" target="_blank">Facebook</a> e <a href="https://x.com/wikimediaitalia" target="_blank">X</a>, oppure seguendo il <a href="https://www.wikimedia.it/feed/" target="_blank">feed RSS</a> o iscrivendoti alla <a href="https://www.wikimedia.it#newsletter" target="_blank">newsletter</a> mensile di WMI.</br>
+        Puoi rimanere aggiornato sulle ultime notività che riguardano la comunità di OpenStreetMap Italia seguendo i canali social di Wikimedia Italia, <a href="https://framapiaf.org/@wikimediaitalia" target="_blank">Mastodon</a>, <a href="https://www.instagram.com/wikimediaitalia/" target="_blank">Instagram</a> e <a href="https://www.facebook.com/Wikimedia.Italia" target="_blank">Facebook</a>, oppure seguendo il <a href="https://www.wikimedia.it/feed/" target="_blank">feed RSS</a> o iscrivendoti alla <a href="https://www.wikimedia.it#newsletter" target="_blank">newsletter</a> mensile di WMI.</br>
         <br>
         Le diverse comunità regionali e locali hanno diversi canali di comunicazione, li puoi trovare elencati nella mappa sottostante. Selezione un punto sulla mappa per trovare tutti i canali disponibili per la tua area.
     `, // supports HTML
